@@ -4,157 +4,156 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Janaiya Irving | Computer Science ePortfolio</title>
 
 <style>
-  * {
-    box-sizing: border-box;
-  }
+* {
+  box-sizing: border-box;
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  body {
-    margin: 0;
-    font-family: Georgia, "Times New Roman", serif;
-    line-height: 1.85;
-    background: #f7f6ef;
-    color: #33372b;
-  }
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.85;
+  background: #fff0f6;
+  color: #49313c;
+}
 
-  header {
-    background: #596b38;
-    color: #ffffff;
-    padding: 65px 20px;
-    text-align: center;
-  }
+header {
+  background: #f47aaa;
+  color: white;
+  padding: 65px 20px;
+  text-align: center;
+}
 
+header h1 {
+  font-size: 40px;
+  margin: 0 0 10px;
+}
+
+header p {
+  margin: 5px;
+  color: white;
+}
+
+nav {
+  background: #c93e78;
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  display: inline-block;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 950px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: white;
+  padding: 35px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border: 1px solid #f7c5d9;
+  scroll-margin-top: 100px;
+}
+
+h2 {
+  color: #c93e78;
+  font-size: 26px;
+  border-bottom: 2px solid #ffb3d0;
+  padding-bottom: 12px;
+}
+
+h3 {
+  color: #dc5b91;
+  margin-top: 28px;
+}
+
+p {
+  margin-bottom: 18px;
+}
+
+a {
+  color: #bc3672;
+}
+
+.subtitle {
+  color: #96657a;
+  font-size: 15px;
+}
+
+.links {
+  margin-top: 25px;
+  padding: 20px;
+  background: #fff0f6;
+  border-radius: 6px;
+}
+
+.links a {
+  display: inline-block;
+  margin: 5px 15px 5px 0;
+  font-weight: bold;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+footer {
+  background: #c93e78;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 14px;
+}
+
+@media (max-width: 650px) {
   header h1 {
-    font-size: 40px;
-    margin: 0 0 10px;
-  }
-
-  header p {
-    margin: 5px;
-    color: #f2f0e6;
-  }
-
-  nav {
-    background: #394728;
-    padding: 15px;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-  }
-
-  nav a {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 0 12px;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    display: inline-block;
-  }
-
-  nav a:hover {
-    text-decoration: underline;
-  }
-
-  main {
-    max-width: 950px;
-    margin: 40px auto;
-    padding: 0 20px;
+    font-size: 29px;
   }
 
   section {
-    background: #ffffff;
-    padding: 35px;
-    margin-bottom: 30px;
-    border-radius: 8px;
-    border: 1px solid #e0e3d6;
-    scroll-margin-top: 100px;
+    padding: 22px;
   }
 
-  h2 {
-    color: #485b30;
-    font-size: 26px;
-    border-bottom: 2px solid #b8c29e;
-    padding-bottom: 12px;
+  nav a {
+    margin: 5px 8px;
   }
-
-  h3 {
-    color: #596b38;
-    margin-top: 28px;
-  }
-
-  p {
-    margin-bottom: 18px;
-  }
-
-  a {
-    color: #4e6530;
-  }
-
-  .subtitle {
-    color: #737a65;
-    font-size: 15px;
-  }
-
-  .links {
-    margin-top: 25px;
-    padding: 20px;
-    background: #f0f2e8;
-    border-radius: 6px;
-  }
-
-  .links a {
-    display: inline-block;
-    margin: 5px 15px 5px 0;
-    font-weight: bold;
-  }
-
-  .video {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    border-radius: 6px;
-    margin-top: 20px;
-  }
-
-  .video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-  }
-
-  footer {
-    background: #394728;
-    color: white;
-    text-align: center;
-    padding: 25px;
-    font-size: 14px;
-  }
-
-  @media (max-width: 650px) {
-    header h1 {
-      font-size: 29px;
-    }
-
-    section {
-      padding: 22px;
-    }
-
-    nav a {
-      margin: 5px 8px;
-    }
-  }
+}
 </style>
 </head>
 
@@ -303,7 +302,7 @@ This enhancement helped me make progress toward Outcomes 3 and 4 because I used 
 <div class="links">
 <h3>Artifact Files</h3>
 
-<a href="https://github.com/JanIrvin/CS-499-ePortfolio/blob/main/Enhancement%202.zip"
+<a href="https://github.com/JanIrvin/CS-499-ePortfolio/blob/main/Module%204%20Enhancement.zip"
    target="_blank" rel="noopener noreferrer">
   Original and Enhanced Treasure Hunt Code
 </a>
@@ -358,4 +357,3 @@ This enhancement helped me make progress toward Outcomes 4 and 5. I demonstrated
 
 </body>
 </html>
-
